@@ -2,7 +2,8 @@
 ### Installation
 
 ```shell
-git clone https://github.com/leeBooMla/SpCL_DANN.git
+git clone https://github.com/leeBooMla/SPCL-DANN
+
 ### Prepare Datasets
 
 ```shell
@@ -10,7 +11,7 @@ cd examples && mkdir data
 ```
 Download the person datasets [Market-1501](https://drive.google.com/file/d/0B8-rUzbwVRk0c054eEozWG9COHM/view), [PersonX](https://github.com/sxzrt/Instructions-of-the-PersonX-dataset#data-for-visda2020-chanllenge)
 ```
-SpCL_DANNples/data
+SPCL-DANN/examples/data
 ├── market1501
 │   └── Market-1501-v15.09.15
 ├── msmt17
@@ -27,7 +28,7 @@ mkdir pretrained
 ```
 The file tree should be
 ```
-SpCL_DANN/logs
+SPCL-DANN/logs
 └── pretrained
     └── resnet50_ibn_a.pth.tar
 ```
