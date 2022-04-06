@@ -61,6 +61,7 @@ python examples/spcl_train_uda.py \
 CUDA_VISIBLE_DEVICES=0,1,2,3 \
 python examples/spcl_train_uda.py \
   -ds personx -dt market1501 --logs-dir logs/spcl_uda/personx2market_resnet50
+  ```
 
 
 ### SPCL+DANN
